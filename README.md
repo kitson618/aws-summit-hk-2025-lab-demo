@@ -1,30 +1,30 @@
-#AWS Summit HK 2025 Lab Demo
+# AWS Summit HK 2025 Lab Demo
 
-##Content Author  
+## Content Author  
 AWS Community Builder & AWS Authorized Instructor Champion \- Kitson Cheung** 
 
-##Tools to be used**   
+## Tools to be used**   
 Visual Studio \- Amazon Q Extension  
 Visual Studio \- Amazon Q Command Line Extension   
 Visual Studio \- Live Server
 
-##1\. Open **Visual Studio Code**  
+## 1\. Open **Visual Studio Code**  
 ![alt text](https://github.com/kitson618/aws-summit-hk-2025-lab-demo/blob/main/images/1.VScode.png)
 ![alt text](https://github.com/kitson618/aws-summit-hk-2025-lab-demo/blob/main/images/2.VScode_UI.png)
 
-##2\. Using **Amazon Q Chat UI** 
+## 2\. Using **Amazon Q Chat UI** 
 
 After you click ![alt text](https://github.com/kitson618/aws-summit-hk-2025-lab-demo/blob/main/images/3.Q_icon.png) on the left side bar. The Chat UI will show up:   
 ![alt text](https://github.com/kitson618/aws-summit-hk-2025-lab-demo/blob/main/images/4.Q_Chat.png)
 
-##3\. Using **Amazon Q Cli**   
+## 3\. Using **Amazon Q Cli**   
 Type the following command in Terminal
 ```
 q chat
 ```   
 ![alt text](https://github.com/kitson618/aws-summit-hk-2025-lab-demo/blob/main/images/5.Q_Cli.png)
 
-##4\. Keep it Up\! Let’s do something hands-on to play with Amazon Q Developer\!   
+## 4\. Keep it Up\! Let’s do something hands-on to play with Amazon Q Developer\!   
    
 **Lab version1:**  
 Prompt: Build a legacy game app Tetris with html
