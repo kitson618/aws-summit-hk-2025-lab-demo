@@ -29,7 +29,7 @@ q chat
 
 ## 4. Keep it Up! Let’s do something hands-on to play with Amazon Q Developer and Generate Applcations!   
    
-### Lab version1: Tetris Game  
+### Lab Sample 1: Tetris Game  
 Prompt: Build a legacy game app Tetris with html
 
 **Final Product Example**  
@@ -37,11 +37,11 @@ Prompt: Build a legacy game app Tetris with html
 
 ![alt text](https://github.com/kitson618/aws-summit-hk-2025-lab-demo/blob/main/images/6.Tetris.png)
 
-### Lab version2: Rock Scissors Papaer Game   
+### Lab Sample 2: Rock Scissors Papaer Game   
 Prompt: Create a html5 page that can play an online game \- rock scissors paper   
 ![alt text](https://github.com/kitson618/aws-summit-hk-2025-lab-demo/blob/main/images/7.Rock_scissor_papaer.png)
 
-### Lab version3: Fact checking app
+### Lab Sample 3: Fact checking app
 
 Prompt1: Build a simple fact checking app in html and use client-side storage as database  
 
@@ -59,7 +59,7 @@ QR code to access Your app:
 
 ![alt text](https://github.com/kitson618/aws-summit-hk-2025-lab-demo/blob/main/images/8.Fact_checker_app.png)
 
-### Lab version4: Billing management app: 
+### Lab Sample 4: Billing management app: 
 
 Prompt 1: Build a simple billing management app in html5 and use client-side storage as database
 
