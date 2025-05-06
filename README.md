@@ -60,7 +60,8 @@ Generate one login page and connect to index.html
 ```
 Prompt3: 
 ```
-Host my fact checking app to my S3 bucket “**aws-summit-hk-2025-lab-demo**” using prefix XXX (XXX is your firstname_lastname, no space allowed, e.g. kitson\_cheung) and being public accessible and provide me the public url 
+Host my fact checking app to my S3 bucket “aws-summit-hk-2025-lab-demo” using prefix XXX and being public accessible and provide me the public url 
+<code style="color : red">* (XXX is your firstname_lastname, no space allowed, e.g. kitson_cheung)</code>
 ```
 Prompt4: 
 ```
@@ -91,7 +92,8 @@ Update due date input field in index.html into date picker
 ```
 Prompt 4: 
 ```
-Host my billing management app to my S3 bucket “**aws-summit-hk-2025-lab-demo**” using prefix XXX <code style="color : red">(XXX is your firstname_lastname, no space allowed, e.g. kitson_cheung)</code> and being public accessible and provide me the public url
+Host my billing management app to my S3 bucket “aws-summit-hk-2025-lab-demo” using prefix XXX and being public accessible and provide me the public url
+<code style="color : red">* (XXX is your firstname_lastname, no space allowed, e.g. kitson_cheung)</code> 
 ```
 Prompt 5:
 ```
