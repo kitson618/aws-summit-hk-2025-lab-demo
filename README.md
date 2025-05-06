@@ -61,8 +61,8 @@ Generate one login page and connect to index.html
 Prompt3: 
 ```
 Host my fact checking app to my S3 bucket “aws-summit-hk-2025-lab-demo” using prefix XXX and being public accessible and provide me the public url 
-<code style="color : red">* (XXX is your firstname_lastname, no space allowed, e.g. kitson_cheung)</code>
 ```
+<code style="color : red">* (XXX is your firstname_lastname, no space allowed, e.g. kitson_cheung)</code>
 Prompt4: 
 ```
 Generate the public url as QR code png file
@@ -93,8 +93,8 @@ Update due date input field in index.html into date picker
 Prompt 4: 
 ```
 Host my billing management app to my S3 bucket “aws-summit-hk-2025-lab-demo” using prefix XXX and being public accessible and provide me the public url
-<code style="color : red">* (XXX is your firstname_lastname, no space allowed, e.g. kitson_cheung)</code> 
 ```
+<code style="color : red">* (XXX is your firstname_lastname, no space allowed, e.g. kitson_cheung)</code> 
 Prompt 5:
 ```
 Generate the public url as QR code png file
