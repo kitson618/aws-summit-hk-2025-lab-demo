@@ -1,4 +1,4 @@
-# AWS Summit HK 2025 Lab Demo
+# AWS Summit HK 2025 Lab Demo - Amazon Q Developer
 
 ## Content Author  
 AWS Community Builder & AWS Authorized Instructor Champion - Kitson Cheung 
