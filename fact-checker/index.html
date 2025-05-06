@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fact Checker App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Fact Checker</h1>
+            <div class="user-controls">
+                <span id="userInfo"></span>
+                <button id="logoutButton" class="logout-btn">Logout</button>
+            </div>
+        </div>
+        
+        <div class="form-section">
+            <h2>Add New Fact</h2>
+            <form id="factForm">
+                <div class="form-group">
+                    <label for="statement">Statement:</label>
+                    <textarea id="statement" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="category">Category:</label>
+                    <select id="category" required>
+                        <option value="">Select a category</option>
+                        <option value="Science">Science</option>
+                        <option value="History">History</option>
+                        <option value="Politics">Politics</option>
+                        <option value="Health">Health</option>
+                        <option value="Technology">Technology</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Verdict:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="true" name="verdict" value="True" required>
+                        <label for="true">True</label>
+                        
+                        <input type="radio" id="false" name="verdict" value="False">
+                        <label for="false">False</label>
+                        
+                        <input type="radio" id="partially-true" name="verdict" value="Partially True">
+                        <label for="partially-true">Partially True</label>
+                        
+                        <input type="radio" id="unverified" name="verdict" value="Unverified">
+                        <label for="unverified">Unverified</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="explanation">Explanation:</label>
+                    <textarea id="explanation" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="sources">Sources (comma separated):</label>
+                    <input type="text" id="sources">
+                </div>
+                <button type="submit">Save Fact</button>
+            </form>
+        </div>
+        
+        <div class="search-section">
+            <h2>Search Facts</h2>
+            <div class="search-controls">
+                <input type="text" id="searchInput" placeholder="Search by keyword...">
+                <select id="filterCategory">
+                    <option value="">All Categories</option>
+                    <option value="Science">Science</option>
+                    <option value="History">History</option>
+                    <option value="Politics">Politics</option>
+                    <option value="Health">Health</option>
+                    <option value="Technology">Technology</option>
+                    <option value="Other">Other</option>
+                </select>
+                <select id="filterVerdict">
+                    <option value="">All Verdicts</option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                    <option value="Partially True">Partially True</option>
+                    <option value="Unverified">Unverified</option>
+                </select>
+                <button id="searchButton">Search</button>
+            </div>
+        </div>
+        
+        <div class="facts-section">
+            <h2>Facts Database</h2>
+            <div id="factsList"></div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

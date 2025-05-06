@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.user-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#userInfo {
+    font-weight: bold;
+}
+
+.logout-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #3498db;
+}
+
+.form-section, .search-section, .facts-section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.radio-group input {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.search-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-controls input,
+.search-controls select {
+    flex: 1;
+}
+
+.fact-card {
+    background-color: #f9f9f9;
+    border-left: 5px solid #3498db;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.fact-card.true {
+    border-left-color: #2ecc71;
+}
+
+.fact-card.false {
+    border-left-color: #e74c3c;
+}
+
+.fact-card.partially-true {
+    border-left-color: #f39c12;
+}
+
+.fact-card.unverified {
+    border-left-color: #95a5a6;
+}
+
+.fact-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.fact-category {
+    background-color: #eee;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.fact-verdict {
+    font-weight: bold;
+}
+
+.fact-verdict.true {
+    color: #2ecc71;
+}
+
+.fact-verdict.false {
+    color: #e74c3c;
+}
+
+.fact-verdict.partially-true {
+    color: #f39c12;
+}
+
+.fact-verdict.unverified {
+    color: #95a5a6;
+}
+
+.fact-statement {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.fact-explanation {
+    margin-bottom: 10px;
+}
+
+.fact-sources {
+    font-style: italic;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.fact-actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.fact-actions button {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+.edit-btn {
+    background-color: #f39c12;
+}
+
+.edit-btn:hover {
+    background-color: #d35400;
+}
