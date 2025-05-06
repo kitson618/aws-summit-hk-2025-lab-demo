@@ -86,7 +86,7 @@ Prompt 3: update due date input field in index.html into date picker
 Sample Final Product:   
 [https://aws-summit-hk-2025-lab-demo.s3.us-east-1.amazonaws.com/bill-management/login.html](https://aws-summit-hk-2025-lab-demo.s3.us-east-1.amazonaws.com/bill-management/login.html)
 
-**Thanks for your time and participation!**   
+## Thanks for your time and participation!   
 
 
 
