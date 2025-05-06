@@ -59,9 +59,12 @@ Prompt2:
 Generate one login page and connect to index.html
 ```
 Prompt3: 
-```Host my fact checking app to my S3 bucket “**aws-summit-hk-2025-lab-demo**” using prefix XXX (XXX is your firstname_lastname, no space allowed, e.g. kitson\_cheung) and being public accessible and provide me the public url 
 ```
-Prompt4: Generate the public url as QR code png file
+Host my fact checking app to my S3 bucket “**aws-summit-hk-2025-lab-demo**” using prefix XXX (XXX is your firstname_lastname, no space allowed, e.g. kitson\_cheung) and being public accessible and provide me the public url 
+```
+Prompt4: 
+```
+Generate the public url as QR code png file
 ```
 
 Sample Final Product:   
