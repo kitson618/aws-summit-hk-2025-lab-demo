@@ -6,7 +6,7 @@ AWS Community Builder & AWS Authorized Instructor Champion - Kitson Cheung
 ## Tools to be used   
 Visual Studio - Amazon Q Extension  
 Visual Studio - Amazon Q Command Line Extension   
-Visual Studio - Live Server
+Visual Studio - Live Server Extension
 
 
 ## 1. Open Visual Studio Code  
